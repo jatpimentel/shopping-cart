@@ -1,70 +1,79 @@
 /* Checkout.css */
 
+/* Container for the checkout page */
 .checkout {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
-  }
-  
-  .checkout h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .checkout-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .checkout-item:last-child {
-    border-bottom: none;
-  }
-  
-  .checkout-item span {
-    font-size: 16px;
-    color: #555;
-  }
-  
-  .total {
-    font-weight: bold;
-    text-align: right;
-    margin: 20px 0;
-    font-size: 18px;
-    color: #333;
-  }
-  
-  .pay,
-  .cancel {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .pay {
-    background-color: #28a745;
-    color: #fff;
-    margin-bottom: 10px;
-  }
-  
-  .pay:hover {
-    background-color: #218838;
-  }
-  
-  .cancel {
-    background-color: #dc3545;
-    color: #fff;
-  }
-  
-  .cancel:hover {
-    background-color: #c82333;
-  }
-  
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;  /* Light gray background for the card */
+}
+
+/* Checkout header styling */
+.checkout h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Individual checkout item styling */
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.checkout-item:last-child {
+  border-bottom: none;
+}
+
+/* Text styling for checkout items */
+.checkout-item span {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Total price styling */
+.total {
+  font-weight: bold;
+  text-align: right;
+  margin: 20px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Styling for payment and cancel buttons */
+.pay,
+.cancel {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Pay button (blue) */
+.pay {
+  background-color: #007bff;  /* Blue color */
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Pay button hover effect */
+.pay:hover {
+  background-color: #0056b3;  /* Darker blue */
+}
+
+/* Cancel button (gray) */
+.cancel {
+  background-color: #6c757d;  /* Gray color */
+  color: #fff;
+}
+
+/* Cancel button hover effect */
+.cancel:hover {
+  background-color: #5a6268;  /* Darker gray */
+}
